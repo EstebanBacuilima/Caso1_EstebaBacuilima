@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925409210047",
+    "project_id": "caso1-d86af",
+    "storage_bucket": "caso1-d86af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925409210047:android:aeb5cde9bd62f06a14200a",
+        "android_client_info": {
+          "package_name": "com.poco.caso1_estebabacuilima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925409210047-n0o940otrkmqrncn7ckl7d05mrduusqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOH37uUjw5gsNuslOO0FJTtiRFYgK8GMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925409210047-n0o940otrkmqrncn7ckl7d05mrduusqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

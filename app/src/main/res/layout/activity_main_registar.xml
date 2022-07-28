@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroPersonasActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tienda Musical"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Codigo"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Digita el nombre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_artista"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Digita el artista"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_cancion"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_artista"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Digita la cancion"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_genero"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cancion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Digita su genero"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_tipo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_genero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Digita el tipo"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btnGuardarD"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_tipo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btnCancelarD"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnGuardarD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Cancelar" />
+
+</RelativeLayout>

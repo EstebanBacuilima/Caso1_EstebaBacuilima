@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultarPersonaActivity">
+
+    <EditText
+        android:id="@+id/buscarId"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Digita el codigo"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/BtnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Buscar" />
+
+
+    <EditText
+        android:id="@+id/txt_nombreC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnBuscar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Nombre"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_artistaC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_nombreC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Artista"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_cancionC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_artistaC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Cancion"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_generoC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cancionC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Genero"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt_tipoC"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_generoC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Tipo"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btnActualizarD"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_tipoC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnEliminarD"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnActualizarD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Eliminar" />
+
+</RelativeLayout>
